@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-function App() {
+import Home from "./pages/Home";
+import AboutUs from "./pages/AboutUs";
+import Catering from "./pages/Catering";
+import Menu from "./pages/Menu";
+import Navbar from "./pages/Navbar"
+
+export default function App() {
+  console.log('here')
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter basename='creative-project-3/build'>
+      <Routes>
+        <Route path="/" element={<Navbar/>}>
+          <Route index element={<Home/>}/>
+          <Route path="AboutUs" element={<AboutUs />} />
+          <Route path="Catering" element={<Catering />} />
+          <Route path="Menu" element={<Menu />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
-
-export default App;
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<App />);

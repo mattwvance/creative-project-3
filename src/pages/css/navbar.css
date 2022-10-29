@@ -1,0 +1,16 @@
+.menu-text {
+    color: #FEFEFE !important;
+    font-size: 27px !important;
+    font-family: American Typewriter, serif;
+}
+
+.menu-header {
+    color: #242278 !important;
+    font-size: 35px !important;
+    font-family: American Typewriter, serif;
+    justify-content: center;
+}
+
+.nav-color {
+    background-color: #BF0A30 !important;
+}

@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300&display=swap');
+
+.layout_padding {
+  padding: 90px 0;
+}
+
+.hero-title{
+  font-size: 5rem;
+  line-height: 1;
+  font-weight: 700;
+  font-family: 'Bowlby One SC', cursive !important;
+  letter-spacing: 0.2rem;
+  background-color: transparent;
+}
+
+.hero-title-accent{
+  color: #242278;
+  font-size: 5rem;
+  line-height: 1;
+  font-weight: 700;
+  font-family: 'Bowlby One SC', cursive !important;
+  letter-spacing: 0.2rem;
+  background-color: transparent;
+}
+
+.hero-title-accent2{
+  color: #D64D4E;
+  font-size: 5rem;
+  line-height: 1;
+  font-weight: 700;
+  font-family: 'Bowlby One SC', cursive !important;
+  letter-spacing: 0.2rem;
+  background-color: transparent;
+}
+
+.hero-text{
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-size: 1rem;
+  color: black;
+}
+
+.about_section {
+  color: #ffffff;
+}
+
+.jumbotron{
+  background-color: transparent !important;
+}
+
+.hero-classics{
+  color: #FEFEFE;
+  font-family: 'Bowlby One SC', cursive !important;
+  font-size: 8rem;
+}
+  
+.about_section .row {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+  
+  .about_section .img-box {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  .about_section .img-box img {
+    width: 100%;
+    max-width: 445px;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .about_section .detail-box p {
+    margin-top: 15px;
+  }
+  
+  .about_section .detail-box a {
+    display: inline-block;
+    padding: 10px 45px;
+    background-color: #242278;
+    color: #FEFEFE;
+    border-radius: 45px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    border: none;
+    margin-top: 15px;
+  }
+  
+  .about_section .detail-box a:hover {
+    background-color: #242278;
+  }
+
+.hero-all-american{
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://images.pexels.com/photos/2983101/pexels-photo-2983101.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2) !important;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://images.pexels.com/photos/2983101/pexels-photo-2983101.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2) !important;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+.hero-text-box {
+  position: relative;
+  width: 1140px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+  

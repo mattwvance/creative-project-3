@@ -1,0 +1,32 @@
+a {
+    color: #FEFEFE !important;
+}
+
+html, body {
+    margin: 0 !important;
+    min-height: 100% !important;
+    /*display: flex;*/
+    /*flex-direction: column;*/
+}
+
+h1 {
+    font-size: 8vw;
+    margin-bottom: 2vh;
+    color: #BF0A30;
+    text-align: center;
+}
+
+
+
+.menu-text {
+    color: #FEFEFE !important;
+    font-size: 27px !important;
+    font-family: American Typewriter, serif;
+}
+
+.menu-header {
+    color: #242278 !important;
+    font-size: 35px;
+    font-family: American Typewriter, serif;
+    justify-content: center;
+}
